@@ -222,24 +222,6 @@ O repositório contém uma implementação funcional de base para:
 
 A USART2 está configurada e disponível, porém a lógica atual não possui uma camada de telemetria serial implementada no fluxo principal.
 
-## Melhorias futuras
-
-Algumas extensões naturais para o projeto são:
-
-- exibição das medições em LCD;
-- registro de temperatura e umidade;
-- comunicação serial para diagnóstico/telemetria;
-- alarmes independentes de temperatura e umidade;
-- configuração do limite sem recompilar o firmware;
-- inclusão de RTC para data/hora das medições;
-- filtro ou média das leituras;
-- watchdog para aumentar a robustez da aplicação;
-- tratamento mais detalhado de falhas do barramento I²C.
-
-## Licença
-
-Nenhuma licença específica foi identificada na estrutura atual do repositório. Caso o projeto seja distribuído publicamente, recomenda-se adicionar um arquivo `LICENSE` com os termos desejados.
-
 ---
 
 **Projeto:** Monitor de Temperatura e Umidade  
